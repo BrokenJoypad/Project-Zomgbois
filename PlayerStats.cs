@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] float PlayerSpeed = 5f;
+    [SerializeField] float PlayerSpeed = 20f;
     [SerializeField] float PlayerHealth = 100;
     [SerializeField] float PlayerMaxHealth = 100;
     [SerializeField] float PlayerMinHealth = 0;
@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour
 
     }
 
-    public float ReturnPlayerStats()
+    public float ReturnPlayerSpeed()
     {
         return PlayerSpeed;
     }
